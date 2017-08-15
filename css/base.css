@@ -1,0 +1,41 @@
+body{padding: 0;margin: 0;background: #EEE}
+.header{
+	background: #0172d2;
+	position: relative;
+}
+.header span{
+	display: block;
+	line-height: 48px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+}
+
+.header .back{
+	display:block;
+	height: 48px;
+	width: 48px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.header .back:before{
+	content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-width: 2px 0 0 2px;
+    border-color: #FFF;
+    border-style: solid;
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg); 
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    left: 20px;
+}
+.weui-btn_primary{background-color: #3479e1;}
+.weui-btn_primary:not(.weui-btn_disabled):active:active{background-color: #3479e1;}
